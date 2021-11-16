@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ddd;
+}
+
+/** Navbar */
+.navbar-brand img {
+  width: 10%;
+}
+ul li a {
+  font-weight: bold;
+  color: #000 !important;
+}
+
+/** form */
+.form-style {
+  width: 30%;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+
+/* * Card */
+.box {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single-card {
+  max-width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.single-card img {
+  width: 100%;
+  display: block;
+}
+
+/** single food Style */
+.singleFoodStyle {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  background-color: #fff;
+}
+.singleFoodStyle img {
+  width: 300px;
+}
+
+ul li {
+  font-style: italic;
+  margin-left: 20px;
+  list-style-type: none;
+}
