@@ -3,62 +3,45 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-color: #ddd;
+  background-color: #a09c9c;
 }
 
-/** Navbar */
-.navbar-brand img {
-  width: 10%;
+.container {
+  background-color: rgb(95, 138, 253);
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 40px;
+  border: 2px solid #fff;
 }
-ul li a {
+
+h1,
+p,
+label {
+  color: rgb(3, 37, 99);
+  font-size: 20px;
   font-weight: bold;
-  color: #000 !important;
 }
 
-/** form */
-.form-style {
-  width: 30%;
-  margin-top: 30px;
-  margin: 0 auto;
+input {
+  padding: 30px;
+  border: none;
+  background-color: rgb(192, 190, 190);
+  font-size: 20px;
 }
 
-/* * Card */
-.box {
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.single-card {
-  max-width: 300px;
-  margin: 10px;
+button {
+  padding: 18px;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
 }
 
-.single-card img {
-  width: 100%;
-  display: block;
-}
-
-/** single food Style */
-.singleFoodStyle {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-  background-color: #fff;
-}
-.singleFoodStyle img {
-  width: 300px;
-}
-
-ul li {
-  font-style: italic;
-  margin-left: 20px;
-  list-style-type: none;
+button:hover {
+  background-color: rgb(3, 37, 99);
+  color: #fff;
 }
